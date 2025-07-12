@@ -99,6 +99,6 @@ If you have feedback or suggestions, open an issue or submit a pull request.
 
 **Author**: Gowtham Gs Patil
 **Role**: Aspiring Data Analyst
-**Email**: \[[your-email@example.com](mailto:gowthamgshivamurthy)]
+**Email**: \[[your-email@example.com](gowthamgshivamurthy@gmail.com)]
 **LinkedIn**: [Your LinkedIn](https://www.linkedin.com/in/gowthamgshivamuthy)
 **GitHub**: [@gowthamgspatil](https://github.com/gowthamgspatil)
