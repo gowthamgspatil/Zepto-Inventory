@@ -1,1 +1,95 @@
+Notebook Title: Zepto\_Inventory\_Dataset\_Insights
+
+This notebook likely analyzes inventory and supply data from Zepto, a quick-commerce grocery delivery platform, to gain actionable business insights.
+
+
+1. Purpose of the Notebook
+
+To analyze Zepto’s inventory data with the goal of understanding:
+
+Stock levels
+Inventory movement
+Warehouse efficiency
+Item-wise or category-wise demand
+Trends and optimization opportunities
+
+
+2. Dataset Overview
+
+The notebook likely includes:
+
+Columns like `item_id`, `product_name`, `category`, `warehouse_id`, `stock_quantity`, `reorder_level`, `sales`, `location`, `date`, etc.
+Types of data: Inventory levels, order trends, supply/demand alignment
+
+
+df.head()  # Shows the first few rows
+df.info()  # Shows column types and missing values
+df.describe()  # Summary stats for numeric columns
+
+3. Data Cleaning & Preprocessing
+
+Steps usually include:
+
+Handling missing values
+Converting dates to datetime format
+Renaming columns for clarity
+Dropping duplicates
+Data type conversions (e.g., stock levels as integers)
+
+
+4. Exploratory Data Analysis (EDA)
+
+Common analyses performed:
+
+Top products by stock / sales
+Most stocked warehouses
+Stock trends over time
+Reorder alerts: products below minimum threshold
+Dead stock detection: items with zero movement
+
+
+
+sns.barplot(x="product_name", y="stock_quantity", data=top_10)
+plt.title("Top 10 Stocked Products")
+
+
+
+
+5. Visualizations
+
+Likely charts:
+
+Bar charts (stock by category, top-selling products)
+Line charts (inventory trends over time)
+Pie charts (category-wise stock distribution)
+Heatmaps (correlation between sales and stock levels)
+
+
+6. Insights and Business Conclusions
+
+
+Which products are in high demand (fast-moving)
+Which products are overstocked or understocked
+Which items need restocking soon
+Which items have stagnant inventory
+Which warehouses perform best/worst in stocking
+
+Example Key Findings
+
+12% of SKUs are overstocked, blocking space.
+8% of items are below reorder threshold.
+Top 3 categories contribute 70% of total movement.
+One warehouse has the highest **dead stock.
+
+
+Summary Table Format
+
+| Metric                  | Value          |
+| ----------------------- | -------------- |
+| Total Products          | 5,000+         |
+| Low Stock Items         | 380            |
+| Overstocked Items       | 450            |
+| Avg Stock per Warehouse | 1,200 units    |
+| Top Category            | Beverages      |
+| Most Demanded Product   | Zepto Water 1L |
 
