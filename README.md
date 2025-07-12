@@ -1,11 +1,5 @@
 # Zepto-Inventory
 
-Based on your notebook (`Zepto_Inventory_Dataset_Insights.ipynb`), the uploaded Excel file (`zepto_v1.xlsx`), and the visualizations, here is a complete and well-structured `README.md` for your **Zepto Inventory Discount Analysis** project:
-
----
-
-# 📊 Zepto Inventory Discount Analysis
-
 This project explores the **discount strategies and pricing trends** of Zepto's product inventory dataset. It uses Python for data preprocessing, analysis, and visualization. The analysis focuses on how discounts vary across product categories, price levels, and available stock.
 
 ---
