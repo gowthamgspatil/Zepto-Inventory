@@ -1,1 +1,113 @@
+Structure Overview
+
+Total Rows: 3,732 products
+Columns: 9
+Sheet Name: `Sheet1`
+
+| Column Name              | Description                                     |
+| ------------------------ | ----------------------------------------------- |
+| `Category`               | Product category (e.g., Fruits & Vegetables)    |
+| `name`                   | Product name                                    |
+| `mrp`                    | Maximum Retail Price (in paise)                 |
+| `discountPercent`        | Discount percentage on MRP                      |
+| `availableQuantity`      | Stock units available                           |
+| `discountedSellingPrice` | Selling price after discount (in paise)         |
+| `weightInGms`            | Weight of the product in grams                  |
+| `outOfStock`             | Boolean indicating if the item is out of stock  |
+| `quantity`               | Quantity (may represent packaging or unit sold) |
+
+Key Insights
+
+Let me now analyze the data to provide:
+
+Total products by category
+Average discount
+Top products by quantity and stock
+Any stock-related patterns
+
+Detailed Summary of `zepto_v1.xlsx`
+
+Product & Category Overview
+
+Total Products: 3,732
+Total Categories: 14
+Top 5 Categories by Product Count:
+
+Cooking Essentials – 514 products
+Munchies – 514 products
+Packaged Food – 388 products
+Ice Cream & Desserts – 388 products
+Chocolates & Candies – 388 products
+
+Pricing & Discount Insights
+
+Average Discount: 7.62%
+Prices (MRP and Discounts): Stored in paise (e.g., 2500 = ₹25.00)
+
+Stock Insights
+
+Total Out-of-Stock Products: 453 items
+Top 5 Categories by Total Stock (Available Quantity):
+
+  Cooking Essentials – 2,186 units
+  Munchies – 2,186 units
+  Chocolates & Candies – 1,521 units
+  Ice Cream & Desserts – 1,521 units
+  Packaged Food – 1,521 units
+
+Top 5 Products by Quantity
+
+| Product Name                           | Category                               | Quantity |
+| -------------------------------------- | -------------------------------------- | -------- |
+| Savlon Moisture Shield Handwash (B1G1) | Personal Care / Paan Corner            | 1500     |
+| Pedigree Puppy Dry Dog Food            | Ice Cream / Packaged Food / Chocolates | 1200     |
+
+Deliverables:
+
+1. Visual Dashboard (Charts)
+
+Key visualizations:
+
+Products per Category (Bar Chart)
+Available Stock by Category (Bar Chart)
+Discount % Distribution (Histogram)
+Out-of-Stock vs In-Stock (Pie Chart)
+Top 10 Products by Quantity (Bar Chart)
+
+2. Cleaned Version of the File
+
+Includes:
+
+Prices converted from paise to ₹ format
+Merged duplicate products (same name + category)
+Sorted by category and product name
+Proper column names (e.g., `MRP (₹)`, `Selling Price (₹)`)
+
+3. Category-Wise Summary in Excel
+
+A new sheet with:
+
+Category name
+Total number of products
+Total available quantity
+Average discount
+Total out-of-stock items per category
+
+
+More advanced data analysis
+
+1. Cleaned Excel file with:
+
+   Prices converted to ₹
+   Duplicates merged
+   Renamed columns
+
+2. Category-wise summary Excel sheet with:
+
+   Total products
+   Total stock
+   Average discount
+   Out-of-stock count
+
+
 
