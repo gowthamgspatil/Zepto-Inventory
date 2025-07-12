@@ -1,123 +1,104 @@
-# Zepto-Inventory
+# 📦 Zepto Inventory Analysis
 
-This project explores the **discount strategies and pricing trends** of Zepto's product inventory dataset. It uses Python for data preprocessing, analysis, and visualization. The analysis focuses on how discounts vary across product categories, price levels, and available stock.
-
----
-
-## 🔍 Objectives
-
-* Analyze product discount patterns
-* Visualize the relationship between discount percent, price, and quantity
-* Understand category-wise discount trends
-* Identify products with high or low discounts
+A data analysis project focused on optimizing and understanding inventory management, inspired by Zepto's instant delivery model. This project leverages Excel and Python (Pandas, Matplotlib, Seaborn) to analyze product data, demand, supply trends, and stock efficiency.
 
 ---
 
-## 📁 Dataset
+## 📊 Project Objective
 
-**File**: `zepto_v1.xlsx`
-**Source**: Zepto Inventory Data (self-curated/simulated)
-**Key Columns**:
+The aim of this project is to:
 
-* `product name`
-* `category`
-* `mrp` (Maximum Retail Price)
-* `selling_price`
-* `available_stock`
+* Analyze inventory movement and availability.
+* Identify fast-moving and slow-moving products.
+* Detect overstocking or understocking situations.
+* Help make data-driven decisions for stock control.
 
 ---
 
-## 🧮 Key Metrics Derived
-
-New columns generated during data cleaning and feature engineering:
-
-* **discount\_amount** = `mrp - selling_price`
-* **discount\_percent** = `(discount_amount / mrp) * 100`
-* **discounted\_price** = `selling_price`
-
----
-
-## 📊 Visualizations & Insights
-
-### 1. Bubble Chart: Discount % vs Price vs Stock
-
-![Bubble Chart](https://github.com/gowthamgspatil/Zepto-Inventory/blob/1ea799b4bb4ba074862a79b2707214e81da4b43a/Zepto%20Inventory%20Project%20File/Zepto%20Inventory%20Project%20Code/bubble_discount_vs_price.png)
-
-* **X-axis**: Discount Percent
-* **Y-axis**: Discounted Selling Price
-* **Bubble Size**: Available Quantity
-
-**Insight**:
-Most products are priced under ₹60,000 with low discount percentages (< 10%). A few outliers have discounts above 30% and high MRP, indicating premium or overstocked products.
-
----
-
-### 2. Line Chart: Sorted Discount Trend
-
-![Line Chart](https://github.com/gowthamgspatil/Zepto-Inventory/blob/4654e4d4f870de781e28aadee2dc0d66ac1869c4/Zepto%20Inventory%20Project%20File/Zepto%20Inventory%20Project%20Code/line_discount_trend.png)
-
-* **X-axis**: Product Index (sorted)
-* **Y-axis**: Discount Percent
-
-**Insight**:
-Very few products receive > 30% discount. A majority cluster between 0–10%, showing a conservative pricing strategy.
-
----
-
-### 3. Violin Plot: Discount Distribution by Category
-
-![Violin Plot](https://github.com/gowthamgspatil/Zepto-Inventory/blob/77e563da7987aa46248c39b347f0e09ca8135f40/Zepto%20Inventory%20Project%20File/Zepto%20Inventory%20Project%20Code/violin_discount_by_category.png)
-
-**Insight**:
-
-* **Fruits & Vegetables** tend to have slightly higher and more consistent discounts.
-* Most categories have discounts centered around 0–10%, indicating limited seasonal offers or price cuts.
-* Some outliers indicate high discounting strategies for clearance or promotion.
-
----
-
-## 🛠️ Tools Used
-
-* **Python**: `pandas`, `matplotlib`, `seaborn`
-* **Jupyter Notebook**: For interactive analysis
-* **Excel**: Original dataset
-* **GitHub**: Project version control
-
----
-
-## 📌 Key Findings
-
-* Discounts are concentrated below 10% for the majority of products.
-* Categories like **Fruits & Vegetables** show relatively higher average discounts.
-* There’s no strong linear correlation between discount percent and selling price.
-* High-priced items may receive higher discounts to drive sales.
-
----
-
-## 📂 Folder Structure
+## 🗂️ Project Structure
 
 ```
-├── zepto_v1.xlsx                      # Raw inventory data
-├── Zepto_Inventory_Dataset_Insights.ipynb  # Main analysis notebook
-├── bubble_discount_vs_price.png      # Bubble chart image
-├── line_discount_trend.png           # Line chart image
-├── violin_discount_by_category.png   # Violin plot image
-└── README.md                         # Project documentation
+Zepto-Inventory/
+│
+├── Zepto Inventory Project File/
+│   ├── Zepto Inventory Final.xlsx         → Raw & cleaned dataset
+│   ├── Zepto Inventory Analysis.ipynb     → Main analysis notebook
+│   └── Product Images, Visual Charts, etc.
+│
+└── README.md                              → Project documentation
 ```
 
 ---
 
-## 📈 Future Scope
+## 📁 Files Explained
 
-* Add **time series** trends of discount evolution
-* Include **location-wise** discount analysis if data available
-* Build a **dashboard** using Streamlit or Power BI for real-time exploration
+### 📘 `Zepto Inventory Final.xlsx`
+
+Contains the main dataset used for the analysis. It includes:
+
+* Product Name
+* Category
+* Price (₹)
+* Quantity in stock
+* Sold Units
+* Remaining Quantity
+* Stock Status (In Stock / Out of Stock)
+* Supplier Name (if applicable)
+* Product Ratings (optional)
 
 ---
 
-## 🙌 Author
+### 📓 `Zepto Inventory Analysis.ipynb`
 
-**Gowtham G S Patil**
-*Data Analyst | Python | Excel | Visualization Enthusiast*
+A Jupyter Notebook that performs:
 
+* Data Cleaning (nulls, formats, duplicates)
+* Exploratory Data Analysis (EDA)
+* Category-wise sales and stock analysis
+* Visualizations using Matplotlib & Seaborn
+* Insights on inventory performance
 
+---
+
+## 📈 Key Insights
+
+* Top-selling and non-performing items identified
+* Categories with overstock or understock highlighted
+* Products with high price but low demand
+* Actionable insights on improving stock turnover
+
+---
+
+## 🛠️ Tools & Technologies Used
+
+* **Python**: For data cleaning and analysis
+* **Pandas**: Data manipulation
+* **Matplotlib & Seaborn**: Data visualization
+* **Excel**: Original data and cleaning
+* **Jupyter Notebook**: Report generation
+
+---
+
+## 📌 Future Improvements
+
+* Automate inventory alerts using Python scripting
+* Build an interactive dashboard (Power BI or Tableau)
+* Integrate live data using APIs
+* Forecast demand using ML models
+
+---
+
+## 🤝 Contribution
+
+Feel free to fork, use or contribute improvements!
+If you have feedback or suggestions, open an issue or submit a pull request.
+
+---
+
+## 📬 Contact
+
+**Author**: Gowtham Gs Patil
+**Role**: Aspiring Data Analyst
+**Email**: \[[your-email@example.com](mailto:gowthamgshivamurthy)]
+**LinkedIn**: [Your LinkedIn](https://www.linkedin.com/in/gowthamgshivamuthy)
+**GitHub**: [@gowthamgspatil](https://github.com/gowthamgspatil)
