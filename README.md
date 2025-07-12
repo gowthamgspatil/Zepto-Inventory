@@ -54,7 +54,7 @@ Most products are priced under ₹60,000 with low discount percentages (< 10%). 
 
 ### 2. Line Chart: Sorted Discount Trend
 
-![Line Chart](Zepto Inventory Project File/Zepto Inventory Project Code/violin_discount_by_category.png)
+![Line Chart](https://github.com/gowthamgspatil/Zepto-Inventory/blob/4654e4d4f870de781e28aadee2dc0d66ac1869c4/Zepto%20Inventory%20Project%20File/Zepto%20Inventory%20Project%20Code/line_discount_trend.png)
 
 * **X-axis**: Product Index (sorted)
 * **Y-axis**: Discount Percent
