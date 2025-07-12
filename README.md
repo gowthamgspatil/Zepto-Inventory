@@ -110,7 +110,7 @@ If you have feedback or suggestions, open an issue or submit a pull request.
 **Author**: Gowtham Gs Patil
 **Role**: Aspiring Data Analyst
 **Email**: \[[gowthamgshivamurthy.com](mailto:your-email@example.com)]
-**LinkedIn**: [https://www.linkedin.com/in/gowthamgshivamuthy](https://www.linkedin.com/in/your-profile)
+**LinkedIn**: [gowthamgshivamuthy](https://www.linkedin.com/in/your-profile)
 **GitHub**: [@gowthamgspatil](https://github.com/gowthamgspatil)
 
 ---
