@@ -66,7 +66,8 @@ Very few products receive > 30% discount. A majority cluster between 0–10%, sh
 
 ### 3. Violin Plot: Discount Distribution by Category
 
-![Violin Plot](./violin_discount_by_category.png)
+![Violin Plot](<img width="1400" height="600" alt="image" src="https://github.com/user-attachments/assets/b619f04d-b858-49da-b01e-714245213e01" />
+)
 
 **Insight**:
 
