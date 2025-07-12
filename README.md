@@ -41,7 +41,7 @@ New columns generated during data cleaning and feature engineering:
 
 ### 1. Bubble Chart: Discount % vs Price vs Stock
 
-![Bubble Chart](./bubble_discount_vs_price.png)
+![Bubble Chart](https://github.com/gowthamgspatil/Zepto-Inventory/blob/1ea799b4bb4ba074862a79b2707214e81da4b43a/Zepto%20Inventory%20Project%20File/Zepto%20Inventory%20Project%20Code/bubble_discount_vs_price.png)
 
 * **X-axis**: Discount Percent
 * **Y-axis**: Discounted Selling Price
